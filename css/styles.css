@@ -1,0 +1,65 @@
+:root {
+    --primary-text-color: #757575;
+    --tittle-text-color:#212121;
+    --accent-colour: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --color-logo: #000000;
+    --button-bgc-color: #F5F4FA;
+}
+
+
+/* Стилізація bоdy */
+body{
+  background-color:var(--primary-white-color);
+  color:var(--primary-text-color);
+}
+
+ul {
+    list-style: none;
+}
+/* Стилізація логотипу */
+.logo {
+    color:var(--color-logo); 
+}
+.logo-accent {
+    color: var(--accent-colour);
+}
+/* Site Nav */
+.site-nav .link {
+    color:var(--tittle-text-color);
+
+}
+.site-nav .link:hover, .site-nav .link:focus {
+    color: var(--accent-colour);
+}
+
+/* hero */
+.hero-tittle{
+    color: var(--primary-white-color);
+}
+
+/* Sections */
+.section-tittle {
+    color: var(--tittle-text-color);
+}
+
+/* Features */
+.features .tittle{
+    color: var(--tittle-text-color);
+}
+
+/* Team-list */
+.team-list .tittle {
+    color: var(--tittle-text-color);
+}
+
+/* Button */
+.button {
+    color: var(--tittle-text-color);
+    background-color:var(--button-bgc-color);
+}
+
+.button.primary {
+    color: var(--primary-white-color);
+    background-color: var(--accent-colour);
+}
