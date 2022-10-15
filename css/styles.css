@@ -53,10 +53,15 @@ ul {
     color: var(--tittle-text-color);
 }
 
-/* Button */
+/* Buttons */
 .button {
     color: var(--tittle-text-color);
     background-color:var(--button-bgc-color);
+}
+
+.button:hover, .button:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-colour);
 }
 
 .button.primary {
