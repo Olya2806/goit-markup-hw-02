@@ -81,7 +81,7 @@ body{
 }
 
 /* Sections */
-.section-tittle {
+.section-tittle, .portfolio-tittle {
     color: var(--tittle-text-color);
     font-weight: 700;
     font-size: 36px;
